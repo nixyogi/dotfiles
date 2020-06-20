@@ -1,0 +1,33 @@
+{
+
+  // utilsnips 
+  "snippets.ultisnips.enable": false,
+  // Cmake config 
+  "cmake.cmakePath": {
+    "type": "string",
+    "default": "cmake",
+    "description": "The path to CMake generator executable"
+  },
+  // Language server config 
+  "languageserver": {
+    "ccls": {
+      "command": "ccls",
+        "filetypes": [
+            "c",
+            "cpp"
+        ],
+        "rootPatterns": [
+            ".ccls",
+            "compile_commands.json",
+            ".vim/",
+            ".git/",
+            ".hg/"
+        ],
+        "initializationOptions": {
+            "cache": {
+                "directory": "/tmp/ccls"
+            }
+        }
+    }
+  }
+}

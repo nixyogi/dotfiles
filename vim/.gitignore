@@ -1,0 +1,9 @@
+temp_dirs/undodir/*
+plugged/ack.vim/.netrwhist
+temp_dirs/yankring_history_v2.txt
+plugged/yankring/doc/tags
+plugged/tlib/doc/tags
+plugged/ctrlp.vim/doc/tags*
+plugged/
+tags
+.DS_Store
