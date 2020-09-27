@@ -1,0 +1,25 @@
+# Braces style is K&R
+--style=kr  
+
+# indent spaces 4
+--indent=spaces=4
+
+# Break blocks with spaces
+--break-blocks=all 
+
+# Pad only (if, for, while)
+--pad-header
+
+# Delete empty lines 
+--delete-empty-lines
+
+# Align pointer and reference to name
+--align-pointer=name 
+--align-reference=name
+
+# Always add braces to single If elses 
+#--add-braces
+
+# Break after 100 characters
+--max-code-length=100
+--break-after-logical
